@@ -1,0 +1,29 @@
+nav{
+    background: #eee; /*  background - цвет фона */
+    border: 1px solid rgb(71, 86, 121);  /* border - обводка */
+    width: 300px;   /* ширина нашей коробочки навигационной */
+    position: fixed;  /* фиксация позиции блока */
+    top: 45px;
+    left: 10px;
+    padding: 10px; /* внутренний отступ */
+    opacity: 0.1;  /* 10% */
+    transition: all 0.5s ease;
+    overflow-y: scroll;
+    height: 90vh;
+    display: block;
+    padding-bottom: 10px;
+}
+
+nav:hover{
+    opacity: 1;  /* 100% */
+    transition: all 0.1s ease;
+}
+
+nav a{
+    margin: 0px ;
+    font-weight: bold ;
+    font-size: 14px!important;
+    word-break: break-word;
+    /* padding-left: 20px; */
+    text-decoration: none;
+}
